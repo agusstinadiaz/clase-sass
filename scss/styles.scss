@@ -1,0 +1,14 @@
+@import "./components/header";
+
+@import "./components/main";
+
+@import "./components/footer";
+
+body {
+    background-color: rgb(245, 245, 220);
+}
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.527);
+    font-weight: 900;
+}

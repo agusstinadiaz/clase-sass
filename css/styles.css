@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Inicio Index.html*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  transition: 0.7s;
+  padding: 30px 20px;
+  background-color: rgba(187, 68, 123, 0.733);
+}
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header li {
+  list-style: none;
+}
+header a {
+  position: relative;
+  font-family: helvetica;
+  margin: 0 15px;
+  text-decoration: none;
+  color: rgb(29, 27, 27);
+  letter-spacing: 2px;
+  font-weight: 600;
+  transition: 0.7s;
+}
+header .logo {
+  position: relative;
+  color: rgb(29, 27, 27);
+  font-weight: bold;
+  font-size: 2em;
+  letter-spacing: 2px;
+  transition: 1.5s;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Finalizo Index.html*/
+/*Inicio Index.html*/
+main {
+  /*Finalizo Index.html*/
+  /*Inicio nosotras.html*/
+  /*Finalizo nosotras.html*/
+  /*Inicio conjunto-1.html/conjunto-2.html/conjunto-3.html/conjunto-4.html*/
+  /*Finalizo conjunto-1.html/conjunto-2.html/conjunto-3.html/conjunto-4.html*/
+  /*Inicio ubicacion.html*/
+  /*Finalizo ubicacion.html*/
+  /*Inicio informacion.html*/
+  /*Finalizo informacion.html*/
+}
+main .zona1 {
+  position: relative;
+  width: 125px;
+  height: 125px;
+}
+main h2 {
+  text-align: center;
+  font-family: helvetica;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgba(29, 27, 27, 0.856);
+}
+main p {
+  text-align: center;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 500;
+  color: rgba(17, 16, 16, 0.856);
+}
+main .descripcion {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: larger;
+  color: rgb(53, 53, 45);
+}
+main .row {
+  display: flex;
+  padding: 10px;
+}
+main .column {
+  flex: 25%;
+  padding: 15px;
+}
+main .column img {
+  margin-top: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(68, 68, 52, 0.788);
+}
+main img {
+  width: auto;
+  height: 425px;
+}
+main .boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+main .boton button {
+  padding: 10px 20px;
+  background-color: rgb(245, 245, 220);
+  cursor: pointer;
+  text-transform: uppercase;
+  border: none;
+}
+main .boton button:hover {
+  background-color: rgba(187, 68, 123, 0.733);
+}
+main .boton button :active {
+  background-color: rgba(187, 68, 123, 0.733);
+}
+main .nosotras h1 {
+  text-align: center;
+  color: rgba(29, 27, 27, 0.856);
+  letter-spacing: 2px;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 500;
+}
+main .nosotras img {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  padding-left: 230px;
+}
+main .nosotras p {
+  text-align: center;
+  font-family: helvetica;
+  color: rgb(29, 27, 27);
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+main .conjunto-1 .slider-box {
+  width: 600px;
+  height: auto;
+  margin: 50px auto 0;
+  overflow: hidden;
+  z-index: -2;
+  position: relative;
+}
+main .conjunto-1 .slider-box ul {
+  display: flex;
+  padding: 0;
+  width: 300%;
+  animation: slide 12s infinite alternate ease-in-out;
+}
+main .conjunto-1 .slider-box li {
+  width: 100%;
+  list-style: none;
+  position: relative;
+}
+main .conjunto-1 .slider-box img {
+  width: 100%;
+  height: 600px;
+}
+@keyframes slide {
+  0% {
+    margin-left: 0;
+  }
+  30% {
+    margin-left: 0;
+  }
+  35% {
+    margin-left: -100%;
+  }
+  65% {
+    margin-left: -100%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  100% {
+    margin-left: -200%;
+  }
+}
+@media (max-width: 991px) {
+  main .conjunto-1 body {
+    padding: 30px;
+  }
+  main .conjunto-1 .slider-box {
+    width: 340px;
+  }
+}
+main .conjunto-1 h1 {
+  text-align: center;
+  color: rgba(29, 27, 27, 0.856);
+  letter-spacing: 2px;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 500;
+}
+main .conjunto-1 .pages-conjuntos {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+main .conjunto-1 #titulo-pagina {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+main .ubicacion .pages-conjuntos {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+main .ubicacion #titulo-pagina {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+main .ubicacion iframe {
+  width: 100%;
+  padding-bottom: 40px;
+  height: 800px;
+}
+
+/*Inicio Index.html*/
+footer {
+  background-color: rgba(189, 189, 168, 0.856);
+}
+footer .wsp {
+  width: 4rem;
+}
+footer .fondo-wsp {
+  display: inline-block;
+  padding: 0.4rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 1rem;
+  right: 2rem;
+}
+footer p {
+  text-align: center;
+  font-size: 20px;
+  color: rgba(29, 27, 27, 0.911);
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+
+/*Finalizo Index.html*/
+body {
+  background-color: rgb(245, 245, 220);
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.527);
+  font-weight: 900;
+}
+
+/*# sourceMappingURL=styles.css.map */

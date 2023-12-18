@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*Inicio Index.html*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 20px;
+    background-color: rgba(187, 68, 123, 0.733);    
+    ul {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    li {
+        list-style: none;
+    }
+    a {
+        position: relative;
+        font-family: helvetica;
+        margin: 0 15px;
+        text-decoration: none;
+        color: rgb(29, 27, 27);
+        letter-spacing: 2px;
+        font-weight: 600;
+        transition: 0.7s;
+
+    }
+    .logo {
+        position: relative;
+        color: rgb(29, 27, 27);
+        font-weight: bold;
+        font-size: 2em;
+        letter-spacing: 2px;
+        transition: 1.5s;
+    }
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Finalizo Index.html*/
